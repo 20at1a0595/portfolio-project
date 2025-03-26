@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a4d6126176.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                    <i class="fa-solid fa-xmark"></i>
+                </ul>
+                <i class="fa-solid fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi,I'm <span>Nanda Kishore</span><br>From Andhra Pradesh</h1>
+
+            </div>
+        </div>
+    </div>
+<!---------------------about-------------------->]
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="nanda.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    I'm Nanda Kishore from Kurnool.<br>I recently graduated from G.Pullaiah College of Engineering and Technology with CGPA 8.47.<br>
+                    I have the knowledge regarding the python,SQL,HTML and CSS.<br>
+                    Hope All are doing well in their lives<br>
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contains active-tab" id="skills">
+                    <ul>
+                        <li><span>PYTHON</span><br>Designing Web Interfaces</li>
+                        <li><span>HTML,CSS</span><br>Designing Web Interfaces</li>
+                        <li><span>SQL</span><br>Designing Web Interfaces</li>
+                    </ul>
+                </div>
+                <div class="tab-contains" id="experience">
+                    <ul>
+                        <li><span>18/07/2022-06/08/2022</span><br>Intern | Brainovision Company</li>
+                        <li><span>25/05/2022-28/05/2022</span><br>WorkShop |Airbac Labs</li>
+                    </ul>
+                </div>
+                <div class="tab-contains" id="education">
+                    <ul>
+                        <li><span>9.8|2018</span><br>Sri Santhinikethan High School</li>
+                        <li><span>944|2020</span><br>Sri Chaitanya Junior College</li>
+                        <li><span>8.47|2024</span><br>G.Pullaiah College of Engineering and Technology</li>
+                    </ul>
+                </div>
+            </div>\
+        </div>
+    </div>
+</div>
+<!--------services--------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I'm a Front-End Developer.I want to make my user interface user-friendly and interactive</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-keyboard"></i>
+                <h2>Smart Coder</h2>
+                <p>I'm an Enthusiastic Coder.I want to learn more regarding DSA</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!----------------portfolio------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work1.jpeg">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The App connects with the people around the world.</p>
+                    <a href="'#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work2.jpeg">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The App connects with the people around the world.</p>
+                    <a href="'#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work3.jpeg">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The App connects with the people around the world.</p>
+                    <a href="'#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!--------------------Contact---------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>nanda123hyd@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9177117247</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a> 
+                </div>
+                <a href="my resume1.pdf" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="Submit" class="btn btn2">Submit</button> 
+
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @ nanda Made with <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontains =document.getElementsByClassName("tab-contains")
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+                
+            
+        }
+        for(tabcontain of tabcontains){
+            tabcontain.classList.remove("active-tab");
+                
+        
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby5L-MtbS5a_2_uR0akBijJhyIKxxcasE1-3RfFOBkCAKYVgKiBrcroQcxlJi8F4eI2/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg =document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>   
+</body>
+</html>
+
